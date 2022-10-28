@@ -18,7 +18,7 @@
     <form runat="server" id="form1">
         <!-- SIDEBAR -->
         <section id="sidebar">
-            <a href="#" class="brand">
+            <a href="https://srmasc.ac.in/" class="brand">
                 <div class="logo">
                     <img src="images\logo.png" />
                 </div>
@@ -396,7 +396,6 @@
                                         </tr>
                                     </tbody>
                                 </table>
-
                             </div>
                         </li>
                     </ul>
