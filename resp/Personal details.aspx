@@ -34,13 +34,13 @@
                     </a>
                 </li>
                 <li class="active">
-                    <a href="#">
+                    <a href="Personal details.aspx">
                         <i class='bx bxs-user'></i>
                         <span class="text">Personal Details</span>
                     </a>
                 </li>
                 <li>
-                    <a href="#">
+                    <a href="Internal.aspx">
                         <i class='bx bxs-book'></i>
                         <span class="text">Courses</span>
                     </a>
@@ -197,7 +197,7 @@
                                         <div class="col-sm">
                                             <asp:Label class="form-label" ID="Label16" runat="server" Text="Select the District"></asp:Label>
                                             <asp:DropDownList ID="DropDownList3" class="form-select" runat="server">
-                                                <asp:ListItem>Districts</asp:ListItem>
+                                                <asp:ListItem>Select your Districts</asp:ListItem>
                                                 <asp:ListItem>Virudhunagar</asp:ListItem>
                                                 <asp:ListItem>Madurai</asp:ListItem>
                                                 <asp:ListItem>Theni</asp:ListItem>

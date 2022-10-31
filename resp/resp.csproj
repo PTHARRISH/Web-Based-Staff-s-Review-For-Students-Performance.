@@ -70,11 +70,19 @@
     <Content Include="css\personal.css" />
     <Content Include="images\img.jpg" />
     <Content Include="images\logo.png" />
+    <Content Include="Internal.aspx" />
     <Content Include="Personal details.aspx" />
     <Content Include="script\JavaScript.js" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Internal.aspx.cs">
+      <DependentUpon>Internal.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Internal.aspx.designer.cs">
+      <DependentUpon>Internal.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Personal details.aspx.cs">
       <DependentUpon>Personal details.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
