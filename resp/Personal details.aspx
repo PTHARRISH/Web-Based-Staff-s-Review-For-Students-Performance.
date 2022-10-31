@@ -76,10 +76,6 @@
                 <i class='bx bx-menu'></i>
                 <a href="#" class="profile">
                     <img src="images/img.jpg" />
-                    <div class="ring-container">
-                        <div class="ringring"></div>
-                        <div class="circle"></div>
-                    </div>
                 </a>
             </nav>
             <!-- NAVBAR -->
@@ -108,10 +104,12 @@
                                     </div>
                                     <div class="col-sm">
                                         <asp:Label ID="Label3" class="form-label" runat="server" Text="Last Name"></asp:Label>
+                                        <small style="color: red">*</small>
                                         <asp:TextBox ID="TextBox2" runat="server" class="form-control" placeholder="Last Name" aria-label="Last name"></asp:TextBox>
                                     </div>
                                     <div class="col-sm">
                                         <asp:Label ID="Label4" class="form-label" runat="server" Text="Date of Birth"></asp:Label>
+                                        <small style="color: red">*</small>
                                         <asp:TextBox ID="txtSelectDate" runat="server" class="form-control" TextMode="Date"></asp:TextBox>
                                     </div>
 

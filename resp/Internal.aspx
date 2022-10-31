@@ -76,10 +76,6 @@
                 <i class='bx bx-menu'></i>
                 <a href="#" class="profile">
                     <img src="images/img.jpg" />
-                    <div class="ring-container">
-                        <div class="ringring"></div>
-                        <div class="circle"></div>
-                    </div>
                 </a>
             </nav>
             <!-- NAVBAR -->
@@ -92,40 +88,40 @@
                             <div class="contents">
                                 <div class="row g-4">
                                     <h5><b>Departments</b></h5>
-                                     <div class="row g-3">
-                                    <div class="col-sm">
-                                        <asp:DropDownList ID="DropDownList1" class="form-select" runat="server">
-                                                    <asp:ListItem>Please Select course</asp:ListItem>
-                                                    <asp:ListItem>MCA</asp:ListItem>
-                                                    <asp:ListItem>BCA</asp:ListItem>
-                                                    <asp:ListItem>B.Com</asp:ListItem>
-                                                    <asp:ListItem>B.Sc CS</asp:ListItem>
-                                                    <asp:ListItem>B.A TAMIL</asp:ListItem>
-                                                    <asp:ListItem>B.Tech</asp:ListItem>
-                                                </asp:DropDownList>
+                                    <div class="row g-3">
+                                        <div class="col-sm">
+                                            <asp:DropDownList ID="DropDownList1" class="form-select" runat="server">
+                                                <asp:ListItem>Please Select course</asp:ListItem>
+                                                <asp:ListItem>MCA</asp:ListItem>
+                                                <asp:ListItem>BCA</asp:ListItem>
+                                                <asp:ListItem>B.Com</asp:ListItem>
+                                                <asp:ListItem>B.Sc CS</asp:ListItem>
+                                                <asp:ListItem>B.A TAMIL</asp:ListItem>
+                                                <asp:ListItem>B.Tech</asp:ListItem>
+                                            </asp:DropDownList>
+                                        </div>
                                     </div>
-                                         </div>
-                                      <div class="row g-3">
-                                    <div class="col-sm">
-                                        <asp:DropDownList ID="DropDownList2" class="form-select" runat="server">
-                                                   <asp:ListItem>Please Select class</asp:ListItem>
-                                                    <asp:ListItem>I MCA</asp:ListItem>
-                                                    <asp:ListItem>II MCA</asp:ListItem>
-                                                </asp:DropDownList>
+                                    <div class="row g-3">
+                                        <div class="col-sm">
+                                            <asp:DropDownList ID="DropDownList2" class="form-select" runat="server">
+                                                <asp:ListItem>Please Select class</asp:ListItem>
+                                                <asp:ListItem>I MCA</asp:ListItem>
+                                                <asp:ListItem>II MCA</asp:ListItem>
+                                            </asp:DropDownList>
+                                        </div>
                                     </div>
-                                         </div>
-                                     <div class="row g-3">
-                                    <div class="col-sm">
-                                        <asp:DropDownList ID="DropDownList3" class="form-select" runat="server">
-                                                   <asp:ListItem>Please Select Subject</asp:ListItem>
-                                                    <asp:ListItem>OOAD</asp:ListItem>
-                                                    <asp:ListItem>WAD</asp:ListItem>
-                                                    <asp:ListItem>DAA</asp:ListItem>
-                                                    <asp:ListItem>SE</asp:ListItem>
-                                                </asp:DropDownList>
+                                    <div class="row g-3">
+                                        <div class="col-sm">
+                                            <asp:DropDownList ID="DropDownList3" class="form-select" runat="server">
+                                                <asp:ListItem>Please Select Subject</asp:ListItem>
+                                                <asp:ListItem>OOAD</asp:ListItem>
+                                                <asp:ListItem>WAD</asp:ListItem>
+                                                <asp:ListItem>DAA</asp:ListItem>
+                                                <asp:ListItem>SE</asp:ListItem>
+                                            </asp:DropDownList>
+                                        </div>
                                     </div>
-                                         </div>
-                                     <div class="col-sm">
+                                    <div class="col-sm">
                                         <br />
                                         <asp:Button ID="Button1" Class="Button1" runat="server" Text="SUBMIT" />
                                     </div>
