@@ -67,6 +67,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="card.aspx" />
     <Content Include="css\personal.css" />
     <Content Include="images\img.jpg" />
     <Content Include="images\logo.png" />
@@ -76,6 +77,13 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="card.aspx.cs">
+      <DependentUpon>card.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="card.aspx.designer.cs">
+      <DependentUpon>card.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Internal.aspx.cs">
       <DependentUpon>Internal.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
