@@ -88,32 +88,59 @@
                             <div class="contents">
                                 <div class="row g-4">
                                     <h5><b>Departments</b></h5>
-                                    <div class="row g-3">
-                                        <div class="col-sm">
+                                    <center>
+                                    <div class="row justify-content-center">
+                                        <div class="col-sm">  
+                                        <asp:Label ID="Label1" runat="server" Text="Choose the Programme"></asp:Label>  
+                                    </div>
+                                       <div class="col-sm">                                                   
                                             <asp:DropDownList ID="DropDownList1" class="form-select" runat="server">
-                                                <asp:ListItem>Please Select course</asp:ListItem>
-                                                <asp:ListItem>MCA</asp:ListItem>
+                                                <asp:ListItem>Select Programme</asp:ListItem>
+                                                <asp:ListItem>UG Programme</asp:ListItem>
+                                                <asp:ListItem>PG Programme</asp:ListItem>
+                                             </asp:DropDownList>
+                                         
+                                        </div>
+                                    </div>
+                                        <div class="row justify-content-center">
+                                       <div class="col-sm">         
+                                      
+                                            <asp:Label ID="Label2" runat="server" class="form-label" Text="Choose the Course Name"></asp:Label></div>
+                                           <div class="col-sm">
+                                            <asp:DropDownList ID="DropDownList4" class="form-select" runat="server">
+                                                <asp:ListItem>Select the Course</asp:ListItem>
+                                                <asp:ListItem>B.A Tamil</asp:ListItem>
+                                                <asp:ListItem>B.A English</asp:ListItem>
                                                 <asp:ListItem>BCA</asp:ListItem>
-                                                <asp:ListItem>B.Com</asp:ListItem>
                                                 <asp:ListItem>B.Sc CS</asp:ListItem>
-                                                <asp:ListItem>B.A TAMIL</asp:ListItem>
+                                                <asp:ListItem>B.Sc Physics</asp:ListItem>
+                                                <asp:ListItem>B.Sc Chemistry</asp:ListItem>
                                                 <asp:ListItem>B.Tech</asp:ListItem>
-                                            </asp:DropDownList>
+                                             </asp:DropDownList>
                                         </div>
                                     </div>
-                                    <div class="row g-3">
+                                    <div class="row justify-content-center">
+                                      
                                         <div class="col-sm">
+                                            
+                                            <asp:Label ID="Label3" runat="server" class="form-label" Text="Choose the Course Year"></asp:Label></div>
+                                            <div class="col-sm">
                                             <asp:DropDownList ID="DropDownList2" class="form-select" runat="server">
-                                                <asp:ListItem>Please Select class</asp:ListItem>
-                                                <asp:ListItem>I MCA</asp:ListItem>
-                                                <asp:ListItem>II MCA</asp:ListItem>
+                                                <asp:ListItem>Select the Year</asp:ListItem>
+                                                <asp:ListItem>I</asp:ListItem>
+                                                <asp:ListItem>II</asp:ListItem>
+                                                <asp:ListItem>III</asp:ListItem>
                                             </asp:DropDownList>
                                         </div>
                                     </div>
-                                    <div class="row g-3">
+                                    <div class="row justify-content-md-center">
+                                   
                                         <div class="col-sm">
+                                      
+                                            <asp:Label ID="Label4" runat="server" class="form-label" Text="Choose the Subject Name"></asp:Label></div>
+                                            <div class="col-sm">
                                             <asp:DropDownList ID="DropDownList3" class="form-select" runat="server">
-                                                <asp:ListItem>Please Select Subject</asp:ListItem>
+                                                <asp:ListItem>Select the Subject</asp:ListItem>
                                                 <asp:ListItem>OOAD</asp:ListItem>
                                                 <asp:ListItem>WAD</asp:ListItem>
                                                 <asp:ListItem>DAA</asp:ListItem>
@@ -125,6 +152,7 @@
                                         <br />
                                         <asp:Button ID="Button1" Class="Button1" runat="server" Text="SUBMIT" />
                                     </div>
+                                        </center>
                                 </div>
                             </div>
 
