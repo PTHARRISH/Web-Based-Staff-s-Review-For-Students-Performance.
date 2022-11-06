@@ -95,13 +95,13 @@
                                                 <span class="three"></span>
                                                 <span class="four"></span>
                                             </div>
-                                            <div class="text1">
-                                                <h1>INTERNAL  I</h1>
-                                                <p>Master of Computer Applications (MCA) </p>
-                                         </div>
+
+                                            <h1>INTERNAL  I</h1>
+                                            <p>Master of Computer Applications (MCA) </p>
+
 
                                             <div class="contentss">
-                                                <button>Discover</button>
+                                                <button>View</button>
                                             </div>
                                         </div>
                                         <div class="card">
@@ -111,10 +111,10 @@
                                                 <span class="three"></span>
                                                 <span class="four"></span>
                                             </div>
-                                            <div class="text1">
-                                                <h1>INTERNAL II</h1>
-                                                <p>Master of Computer Applications (MCA) </p>
-                                         </div>
+
+                                            <h1>INTERNAL II</h1>
+                                            <p>Master of Computer Applications (MCA) </p>
+
                                             <div class="contentss">
                                                 <asp:Button ID="Button1" runat="server" Text="View" />
                                                 <button>edit</button>
@@ -127,10 +127,10 @@
                                                 <span class="three"></span>
                                                 <span class="four"></span>
                                             </div>
-                                            <div class="text1">
-                                                <h1>INTERNAL III</h1>
-                                                <p>Master of Computer Applications (MCA) </p>
-                                         </div>
+
+                                            <h1>Terminal</h1>
+                                            <p>Master of Computer Applications (MCA) </p>
+
                                             <div class="contentss">
                                                 <button>Discover</button>
                                             </div>
