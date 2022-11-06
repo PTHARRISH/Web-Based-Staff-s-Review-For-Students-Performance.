@@ -4455,13 +4455,13 @@ body {
 
 @media screen and (max-width: 700px) {
     .card {
-        width: 45%;
+        width: 50%;
     }
 }
 
 @media screen and (max-width: 500px) {
     .card {
-        width: 90%;
+        width: 95%;
     }
 }
 
