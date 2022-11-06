@@ -77,7 +77,7 @@ body {
         white-space: nowrap;
     }
 
-#content .profile .ring-container {
+#content nav .ring-container {
     position: relative;
 }
 .Button1 {
@@ -101,25 +101,25 @@ body {
         background-color: rgba(104, 85, 224, 1);
     }
 
-    #content .profile .ring-container .circle {
+    #content nav .ring-container .circle {
         width: 15px;
         height: 15px;
         background-color: #62bd19;
         border: 2px solid #ffffff;
         border-radius: 50%;
         position: absolute;
-        top: -16px;
-        left: 153px;
+        top: 24px;
+        left: 20px;
     }
 
-#content .profile .ring-container .ringring {
+#content nav .ring-container .ringring {
     border: 3px solid #62bd19;
     -webkit-border-radius: 20px;
     height: 25px;
     width: 25px;
     position: absolute;
-    left: 148px;
-    top: -20px;
+    left: 15px;
+    top: 20px;
     -webkit-animation: pulsate 1s ease-out;
     -webkit-animation-iteration-count: infinite;
     opacity: 0;
