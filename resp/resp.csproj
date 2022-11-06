@@ -67,6 +67,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="AppData\Database1.mdf" />
+    <Content Include="AppData\Database1_log.ldf">
+      <DependentUpon>Database1.mdf</DependentUpon>
+    </Content>
     <Content Include="card.aspx" />
     <Content Include="css\card.css" />
     <Content Include="css\personal.css" />

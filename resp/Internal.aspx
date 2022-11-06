@@ -94,10 +94,8 @@
                                         <asp:Label ID="Label1" runat="server" Text="Choose the Programme"></asp:Label>  
                                     </div>
                                        <div class="col-sm">                                                   
-                                            <asp:DropDownList ID="DropDownList1" class="form-select" runat="server">
-                                                <asp:ListItem>Select Programme</asp:ListItem>
-                                                <asp:ListItem>UG Programme</asp:ListItem>
-                                                <asp:ListItem>PG Programme</asp:ListItem>
+                                            <asp:DropDownList ID="DropDownList1" class="form-select" runat="server" AutoPostBack="True"  DataTextField="degree" DataValueField="degree_id" AppendDataBoundItems="true" onselectedindexchanged="DropDownList1_SelectedIndexChanged">
+                                                <asp:ListItem Value="0">Select Programme</asp:ListItem>
                                              </asp:DropDownList>
                                          
                                         </div>
@@ -107,16 +105,9 @@
                                       
                                             <asp:Label ID="Label2" runat="server" class="form-label" Text="Choose the Course Name"></asp:Label></div>
                                            <div class="col-sm">
-                                            <asp:DropDownList ID="DropDownList4" class="form-select" runat="server">
-                                                <asp:ListItem>Select the Course</asp:ListItem>
-                                                <asp:ListItem>B.A Tamil</asp:ListItem>
-                                                <asp:ListItem>B.A English</asp:ListItem>
-                                                <asp:ListItem>BCA</asp:ListItem>
-                                                <asp:ListItem>B.Sc CS</asp:ListItem>
-                                                <asp:ListItem>B.Sc Physics</asp:ListItem>
-                                                <asp:ListItem>B.Sc Chemistry</asp:ListItem>
-                                                <asp:ListItem>B.Tech</asp:ListItem>
-                                             </asp:DropDownList>
+                                            <asp:DropDownList ID="DropDownList2" class="form-select" runat="server"  AutoPostBack="True" AppendDataBoundItems="true" DataTextField="course" DataValueField="course_id"   onselectedindexchanged="DropDownList2_SelectedIndexChanged">
+                                                <asp:ListItem Value="0">Select the Course</asp:ListItem>
+                                            </asp:DropDownList>
                                         </div>
                                     </div>
                                     <div class="row justify-content-center">
@@ -125,11 +116,8 @@
                                             
                                             <asp:Label ID="Label3" runat="server" class="form-label" Text="Choose the Course Year"></asp:Label></div>
                                             <div class="col-sm">
-                                            <asp:DropDownList ID="DropDownList2" class="form-select" runat="server">
-                                                <asp:ListItem>Select the Year</asp:ListItem>
-                                                <asp:ListItem>I</asp:ListItem>
-                                                <asp:ListItem>II</asp:ListItem>
-                                                <asp:ListItem>III</asp:ListItem>
+                                            <asp:DropDownList ID="DropDownList3" class="form-select" runat="server"  AutoPostBack="True" AppendDataBoundItems="true" DataTextField="years" DataValueField="years"   onselectedindexchanged="DropDownList3_SelectedIndexChanged">
+                                                <asp:ListItem Value="0">Select the Year</asp:ListItem>
                                             </asp:DropDownList>
                                         </div>
                                     </div>
@@ -139,7 +127,7 @@
                                       
                                             <asp:Label ID="Label4" runat="server" class="form-label" Text="Choose the Subject Name"></asp:Label></div>
                                             <div class="col-sm">
-                                            <asp:DropDownList ID="DropDownList3" class="form-select" runat="server">
+                                            <asp:DropDownList ID="DropDownList4" class="form-select" runat="server">
                                                 <asp:ListItem>Select the Subject</asp:ListItem>
                                                 <asp:ListItem>OOAD</asp:ListItem>
                                                 <asp:ListItem>WAD</asp:ListItem>
