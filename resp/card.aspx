@@ -95,11 +95,10 @@
                                                 <span class="three"></span>
                                                 <span class="four"></span>
                                             </div>
-
-                                            <div class="textcard">
+                                            <div class="text1">
                                                 <h1>INTERNAL  I</h1>
                                                 <p>Master of Computer Applications (MCA) </p>
-                                            </div>
+                                         </div>
 
                                             <div class="contentss">
                                                 <button>Discover</button>
@@ -112,7 +111,10 @@
                                                 <span class="three"></span>
                                                 <span class="four"></span>
                                             </div>
-                                            <img src="https://images.unsplash.com/photo-1586348943529-beaae6c28db9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8bmF0dXJlfGVufDB8MXwwfHw%3D&auto=format&fit=crop&w=500&q=60" alt="" />
+                                            <div class="text1">
+                                                <h1>INTERNAL II</h1>
+                                                <p>Master of Computer Applications (MCA) </p>
+                                         </div>
                                             <div class="contentss">
                                                 <asp:Button ID="Button1" runat="server" Text="View" />
                                                 <button>edit</button>
@@ -125,7 +127,10 @@
                                                 <span class="three"></span>
                                                 <span class="four"></span>
                                             </div>
-                                            <img src="https://images.unsplash.com/photo-1414609245224-afa02bfb3fda?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fG5hdHVyZXxlbnwwfDF8MHx8&auto=format&fit=crop&w=500&q=60" alt="" />
+                                            <div class="text1">
+                                                <h1>INTERNAL III</h1>
+                                                <p>Master of Computer Applications (MCA) </p>
+                                         </div>
                                             <div class="contentss">
                                                 <button>Discover</button>
                                             </div>

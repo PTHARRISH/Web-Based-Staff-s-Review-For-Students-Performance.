@@ -4506,6 +4506,9 @@ body {
             bottom: 0;
         }
 
+.card .textcard{
+    margin:100px;
+}
 .card:hover .elms-animation span {
     width: 50%;
     height: 50%;
