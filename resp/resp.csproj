@@ -68,6 +68,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="card.aspx" />
+    <Content Include="css\card.css" />
     <Content Include="css\personal.css" />
     <Content Include="images\img.jpg" />
     <Content Include="images\logo.png" />

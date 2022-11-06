@@ -11,7 +11,7 @@
     <!-- Boxicons -->
     <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet' />
     <!-- My CSS -->
-    <link rel="stylesheet" href="css/personal.css" />
+    <link rel="stylesheet" href="css/card.css" />
     <title>AdminHub</title>
 </head>
 <body>
@@ -87,46 +87,51 @@
                         <li>
                             <div class="contents">
                                 <div class="container">
-  <div class="cards-container">
-    <div class="card">
-      <div class="elms-animation">
-        <span class="one"></span>
-        <span class="two"></span>
-        <span class="three"></span>
-        <span class="four"></span>
-      </div>
-      <img src="https://images.unsplash.com/photo-1647036003499-94eebb3388c7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw0M3x8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60" alt="" />
-      <div class="contentss">
-        <button>Discover</button>
-      </div>
-    </div>
-    <div class="card">
-      <div class="elms-animation">
-        <span class="one"></span>
-        <span class="two"></span>
-        <span class="three"></span>
-        <span class="four"></span>
-      </div>
-      <img src="https://images.unsplash.com/photo-1586348943529-beaae6c28db9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8bmF0dXJlfGVufDB8MXwwfHw%3D&auto=format&fit=crop&w=500&q=60" alt="" />
-      <div class="contentss">
-          <asp:Button ID="Button1" runat="server" Text="View" />
-        <button>edit</button>
-      </div>
-    </div>
-    <div class="card">
-      <div class="elms-animation">
-        <span class="one"></span>
-        <span class="two"></span>
-        <span class="three"></span>
-        <span class="four"></span>
-      </div>
-      <img src="https://images.unsplash.com/photo-1414609245224-afa02bfb3fda?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fG5hdHVyZXxlbnwwfDF8MHx8&auto=format&fit=crop&w=500&q=60" alt="" />
-      <div class="contentss">
-        <button>Discover</button>
-      </div>
-    </div>
-  </div>
-</div>                       
+                                    <div class="cards-container">
+                                        <div class="card">
+                                            <div class="elms-animation">
+                                                <span class="one"></span>
+                                                <span class="two"></span>
+                                                <span class="three"></span>
+                                                <span class="four"></span>
+                                            </div>
+
+                                            <div class="textcard">
+                                                <h1>INTERNAL  I</h1>
+                                                <p>Master of Computer Applications (MCA) </p>
+                                            </div>
+
+                                            <div class="contentss">
+                                                <button>Discover</button>
+                                            </div>
+                                        </div>
+                                        <div class="card">
+                                            <div class="elms-animation">
+                                                <span class="one"></span>
+                                                <span class="two"></span>
+                                                <span class="three"></span>
+                                                <span class="four"></span>
+                                            </div>
+                                            <img src="https://images.unsplash.com/photo-1586348943529-beaae6c28db9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8bmF0dXJlfGVufDB8MXwwfHw%3D&auto=format&fit=crop&w=500&q=60" alt="" />
+                                            <div class="contentss">
+                                                <asp:Button ID="Button1" runat="server" Text="View" />
+                                                <button>edit</button>
+                                            </div>
+                                        </div>
+                                        <div class="card">
+                                            <div class="elms-animation">
+                                                <span class="one"></span>
+                                                <span class="two"></span>
+                                                <span class="three"></span>
+                                                <span class="four"></span>
+                                            </div>
+                                            <img src="https://images.unsplash.com/photo-1414609245224-afa02bfb3fda?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fG5hdHVyZXxlbnwwfDF8MHx8&auto=format&fit=crop&w=500&q=60" alt="" />
+                                            <div class="contentss">
+                                                <button>Discover</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
 
                         </li>
