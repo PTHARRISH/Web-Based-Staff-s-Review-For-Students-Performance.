@@ -74,10 +74,14 @@
             <!-- NAVBAR -->
             <nav>
                 <i class='bx bx-menu'></i>
-                <a href="#" class="profile">
-                    <img src="images/img.jpg" />
-                </a>
-            </nav>
+                <div class="ring-container">
+                    <a href="#" class="profile">
+                        <img src="images/img.jpg" />
+                        <div class="ringring"></div>
+			        <div class="circle"></div>
+                    </a>
+                    </div>
+	            </nav>
             <!-- NAVBAR -->
 
             <!-- MAIN -->

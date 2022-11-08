@@ -74,12 +74,17 @@
             <!-- NAVBAR -->
             <nav>
                 <i class='bx bx-menu'></i>
-                <a href="#" class="profile">
-                    <img src="images/img.jpg" />
-                </a>
+                <div class="ring-container">
+                    <a href="#" class="profile">
+                        <img src="images/img.jpg" />
+                        <div class="ringring"></div>
+                        <div class="circle"></div>
+                    </a>
+
+                </div>
+
             </nav>
             <!-- NAVBAR -->
-
             <!-- MAIN -->
             <main>
                 <div class="wrapper">
@@ -128,7 +133,7 @@
                                                 <span class="four"></span>
                                             </div>
 
-                                            <h1>Terminal</h1>
+                                            <h1>TERMINAL</h1>
                                             <p>Master of Computer Applications (MCA) </p>
 
                                             <div class="contentss">
